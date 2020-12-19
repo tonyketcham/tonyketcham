@@ -10,4 +10,4 @@
     <li>😄 Pronouns: he/they</li>
   </ul>
 </div>
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=tonyketcham&show_icons=true&theme=nightowl&count_private=true" />
+<!--<img align="left" src="https://github-readme-stats.vercel.app/api?username=tonyketcham&show_icons=true&theme=nightowl&count_private=true" />-->
