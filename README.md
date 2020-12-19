@@ -4,7 +4,7 @@
 - 🌱 I’m learning Gridsome, GraphQL, and generative design
 - 👯 I’m lookin to collab on pen plotter designs
 - 🤔 I’m lookin for help with a vector-based, generative art toolkit
-- 💬 Ask me about tea, UI/UX, and 3D printing
+- 💬 Ask me about tea, UI/UX, photography, and 3D printing
 - 😄 Pronouns: he/they
 
 
