@@ -9,5 +9,6 @@
     <li>💬 Ask me about tea, UI/UX, photography, and 3D printing</li>
     <li>😄 Pronouns: he/they</li>
   </ul>
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=tonyketcham&show_icons=true&theme=nightowl&count_private=true" />
 </div>
+
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=tonyketcham&show_icons=true&theme=nightowl&count_private=true" />
