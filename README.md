@@ -7,4 +7,4 @@
 - 💬 Ask me about tea, UI/UX, and 3D printing
 - 😄 Pronouns: he/they
 
-![Tony's github stats](https://github-readme-stats.vercel.app/api?username=tonyketcham&show_icons=true&theme=buefy&count_private=true)
+![Tony's github stats](https://github-readme-stats.vercel.app/api?username=tonyketcham&show_icons=true&theme=nightowl&count_private=true)
