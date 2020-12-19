@@ -1,6 +1,6 @@
 ### Yea well,,, 😳
 <hr>
-<div align="center">
+<div>
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tonyketcham&show_icons=true&theme=nightowl&hide=php,plsql" />
   <ul>
     <li>🔭 I’m working on Puerh.wtf and <a href="https://disthing.co">Disthing.co</a></li>
