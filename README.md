@@ -1,5 +1,6 @@
 ### Professional Sitter 🐒
-<hr>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U639TZ3)
+
 <div>
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tonyketcham&show_icons=true&theme=nightowl&hide=php,plsql" />
   <ul>
