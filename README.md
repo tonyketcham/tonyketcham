@@ -2,7 +2,6 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U639TZ3)
 
 <div>
-  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tonyketcham&show_icons=true&theme=nightowl&hide=php,plsql" />
   <ul>
     <li>🔭 Currently working on <a href="https://github.com/tonyketcham/puerh.wtf">Puerh.wtf</a> and <a href="https://disthing.co">Disthing.co</a></li>
     <li>🌱 Picking up Supabase, SvelteKit, GLSL, and generative design!</li>
