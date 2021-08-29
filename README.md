@@ -3,10 +3,10 @@
 
 <div>
   <ul>
-    <li>🔭 Currently working on <a href="https://github.com/tonyketcham/puerh.wtf">Puerh.wtf</a> and <a href="https://disthing.co">Disthing.co</a></li>
+    <li>🔭 Currently working on <a href="https://github.com/tonyketcham/puerh.wtf">Puerh.wtf</a> and assorted JS libraries</li>
     <li>🌱 Picking up Supabase, SvelteKit, GLSL, and generative design!</li>
-    <li>🤔 Looking to collab on vector-based generative art tools</li>
-    <li>💬 Ask me about tea (especially puer), UI/UX, photography, and 3D printing</li>
+    <li>🤔 Looking to collab on vector-based generative art tools & devtooling projects</li>
+    <li>💬 Talk to me about tea, UI/UX, rogue gardening, graphic design, photography, building keyboards, 3D printing, or whatever my hyperfixation of the month is</li>
     <li>😄 Pronouns: he/they</li>
   </ul>
 </div>
