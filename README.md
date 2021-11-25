@@ -3,9 +3,9 @@
 
 <div>
   <ul>
-    <li>🔭 Currently working on <a href="https://github.com/tonyketcham/puerh.wtf">Puerh.wtf</a> and a hodgepodge of JS projects
+    <li>🔭 Currently working on <a href="https://github.com/tonyketcham/puerh.wtf">Puerh.wtf</a> and a hodgepodge of web projects
       <ul>
-        <li>Recently started <a href="https://github.com/tonyketcham/oyu">Oyu</a> so I can port my tea log's flat-file database to SvelteKit</li>
+        <li>Recently started <a href="https://github.com/tonyketcham/flatbread">Flatbread</a> so I can port my tea log's flat-file database to SvelteKit</li>
       </ul>
     </li>
     <li>🌱 Learnin Typescript, Category Theory, GLSL, generative design, and how to make more accessible web apps!</li>
