@@ -6,7 +6,7 @@ import preprocess from 'svelte-preprocess';
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
-	preprocess: [windi({}), preprocess({})],
+	preprocess: [windi({ configPath: 'windi.config.js' }), preprocess({})],
 
 	kit: {
 		adapter: adapter(),

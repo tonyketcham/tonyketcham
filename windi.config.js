@@ -5,9 +5,14 @@ export default defineConfig({
 	darkMode: 'class',
 	safelist: ['dark', 'light'],
 	theme: {
+		fontFamily: {
+			mono: ['divenire-mono', 'monospace']
+		},
 		extend: {
-			fontFamily: {
-				text: ['divenire-mono']
+			colors: {
+				funkycyan: '#00FFC4',
+				funkyyellow: '#FFE600',
+				funkyviolet: '#EF00FF'
 			}
 		}
 	}
