@@ -6,20 +6,23 @@
 
 <div class="relative max-w-max mb-3">
 	{#if tag === 'button'}
-		<button on:click>
+		<button class="button dark:bg-indigo-600" on:click>
 			<slot />
 		</button>
 	{:else}
-		<a {href}>
+		<a class="button dark:bg-indigo-600" {href}>
 			<slot />
 		</a>
 	{/if}
-	<div class="bottom-layer z-0" style="background-color: {accent};" role="presentation" />
+	<div
+		class="bottom-layer z-0 after:dark:bg-indigo-800"
+		style="background-color: {accent};"
+		role="presentation"
+	/>
 </div>
 
-<style>
-	button,
-	a {
+<style lang="postcss" global>
+	.button {
 		@apply inline-block z-10 relative;
 		@apply px-4 py-2;
 		@apply text-3xl font-medium;

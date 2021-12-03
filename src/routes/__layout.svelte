@@ -3,12 +3,12 @@
 	import BrutalistButton from './../lib/components/BrutalistButton.svelte';
 </script>
 
-<div class="w-full">
+<div class="w-full font-text">
 	<div
 		class="flex flex-row-reverse space-x-reverse space-x-16 mx-auto max-width m-auto h-screen p-16"
 	>
 		<aside
-			class="w-80 flex-shrink relative brutalist-layer p-1.5 bg-white dark:bg-yellow-200"
+			class="w-80 flex-shrink relative brutalist-layer p-1.5 bg-white dark:bg-indigo-800 dark:text-white"
 			style="height: max-content;"
 		>
 			<div class="relative -mt-6 border-3 border-black">
@@ -26,7 +26,10 @@
 			</div>
 		</aside>
 
-		<main id="main-content" class="relative w-full brutalist-layer bg-white dark:bg-yellow-200">
+		<main
+			id="main-content"
+			class="relative w-full brutalist-layer bg-white dark:bg-indigo-800 dark:text-white"
+		>
 			<div class="overflow-auto w-full h-full">
 				<slot />
 			</div>

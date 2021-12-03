@@ -1,7 +1,14 @@
 // @ts-check - enable TS check for js file
-import { defineConfig } from 'windicss/helpers'
+import { defineConfig } from 'windicss/helpers';
 
 export default defineConfig({
-    darkMode: 'class',
-    safelist: ['dark', 'light'],
-})
+	darkMode: 'class',
+	safelist: ['dark', 'light'],
+	theme: {
+		extend: {
+			fontFamily: {
+				text: ['divenire-mono']
+			}
+		}
+	}
+});
