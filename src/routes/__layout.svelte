@@ -19,8 +19,6 @@
 </div>
 
 <style windi:preflights:global windi:safelist:global global>
-	@import url('https://use.typekit.net/kdi3ftf.css');
-
 	.max-width {
 		max-width: 70rem;
 	}
