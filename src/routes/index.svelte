@@ -8,7 +8,7 @@
 	</div>
 	<section class="space-y-5 text-lg">
 		<h1 class="text-6xl mb-2">Hi I'm Tony</h1>
-		<p>A digital and analogue forager + maker 👩‍🌾</p>
+		<blockquote>A digital and analogue forager + maker 👩‍🌾</blockquote>
 		<p>
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem ab nemo explicabo
 			delectus, eligendi quisquam eveniet adipisci? Commodi sapiente iusto facere doloremque
@@ -21,3 +21,11 @@
 		</p>
 	</section>
 </article>
+
+<style>
+	blockquote {
+		@apply border-l-4 border-indigo-500 bg-indigo-600 bg-opacity-25;
+		@apply pl-3;
+		@apply font-medium text-base;
+	}
+</style>
