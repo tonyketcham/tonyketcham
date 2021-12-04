@@ -2,6 +2,11 @@
 	import Sidebar from '$lib/components/Sidebar.svelte';
 </script>
 
+<svelte:head>
+	<title>t-o-n-y</title>
+	<meta name="description" content="a portfolio of sorts" />
+</svelte:head>
+
 <div class="w-full font-mono">
 	<div
 		class="flex flex-row-reverse space-x-reverse space-x-16 mx-auto max-width m-auto h-screen p-16"
