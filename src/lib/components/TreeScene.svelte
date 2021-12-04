@@ -57,6 +57,23 @@
 	{/await}
 	<SC.PerspectiveCamera position={[5, 5, 30]} />
 	<SC.OrbitControls maxPolarAngle={Math.PI * 0.51} />
-	<SC.AmbientLight intensity={0.6} />
-	<SC.DirectionalLight intensity={0.6} position={[-2, 3, 2]} shadow={{ mapSize: [2048, 2048] }} />
+	<SC.AmbientLight intensity={0.3} />
+	<SC.DirectionalLight
+		intensity={1.9}
+		position={[-2, 3, 2]}
+		shadow={{ mapSize: [2048, 2048] }}
+		color={new THREE.Color(0x00ffc4)}
+	/>
+	<SC.DirectionalLight
+		intensity={1.8}
+		position={[2, -3, 2]}
+		shadow={{ mapSize: [2048, 2048] }}
+		color={new THREE.Color(0xffe600)}
+	/>
+	<SC.DirectionalLight
+		intensity={1.4}
+		position={[2, -3, -2]}
+		shadow={{ mapSize: [2048, 2048] }}
+		color={new THREE.Color(0xef00ff)}
+	/>
 </SC.Canvas>
