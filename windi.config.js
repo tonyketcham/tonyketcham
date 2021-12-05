@@ -3,7 +3,7 @@ import { defineConfig } from 'windicss/helpers';
 
 export default defineConfig({
 	darkMode: 'class',
-	safelist: ['dark', 'light'],
+	safelist: ['dark', 'light', 'bg-funkycyan', 'bg-funkyyellow', 'bg-funkyviolet'],
 	theme: {
 		fontFamily: {
 			mono: ['divenire-mono', 'monospace']

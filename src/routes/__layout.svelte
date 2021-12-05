@@ -1,5 +1,6 @@
 <script>
 	import Sidebar from '$lib/components/Sidebar.svelte';
+	import TabBookmarks from '$lib/components/TabBookmarks.svelte';
 </script>
 
 <div class="w-full font-mono">
@@ -7,14 +8,18 @@
 		class="flex flex-row-reverse space-x-reverse space-x-16 mx-auto max-width m-auto h-screen p-16"
 	>
 		<Sidebar />
-		<main
-			id="main-content"
-			class="relative w-full brutalist-layer bg-white dark:bg-indigo-800 dark:text-white"
-		>
-			<div class="overflow-auto w-full h-full">
-				<slot />
-			</div>
-		</main>
+		<div class="relative w-full h-full flex">
+			<TabBookmarks />
+
+			<main
+				id="main-content"
+				class="relative w-full brutalist-layer bg-white dark:bg-indigo-800 dark:text-white"
+			>
+				<div class="overflow-auto w-full h-full">
+					<slot />
+				</div>
+			</main>
+		</div>
 	</div>
 </div>
 
