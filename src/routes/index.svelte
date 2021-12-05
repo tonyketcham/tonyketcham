@@ -2,6 +2,11 @@
 	import TreeScene from '../lib/components/TreeScene.svelte';
 </script>
 
+<svelte:head>
+	<title>Tony 🧙‍♂️</title>
+	<meta name="description" content="a portfolio of sorts" />
+</svelte:head>
+
 <article class="p-4">
 	<div class=" md:float-right -m-4 md:ml-0 md:mb-0 md:-mr-4 md:-mt-4 md:w-1/2 h-70 relative">
 		<TreeScene />

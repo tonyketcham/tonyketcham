@@ -56,6 +56,11 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Contact Tony 🧙‍♂️</title>
+	<meta name="description" content="reach out about stuff" />
+</svelte:head>
+
 <section class="p-4 space-y-6">
 	<h1 class="text-4xl">{heading}</h1>
 	<form
