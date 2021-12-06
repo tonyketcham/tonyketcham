@@ -10,7 +10,7 @@
 		style="height: max-content;"
 	>
 		<div class="relative -mt-6 border-3 border-black">
-			<img src="mamiya-small.jpeg" alt="Pic of me" class="w-full" />
+			<img width="210" height="210" src="mamiya-small.jpeg" alt="Pic of me" class="object-cover" />
 		</div>
 		<h1 class="text-3xl mb-6">Tony Ketcham</h1>
 
