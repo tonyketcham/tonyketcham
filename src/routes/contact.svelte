@@ -1,47 +1,45 @@
-<script context="module" lang="ts">
-	/** @type {import('@sveltejs/kit').Load} */
-	export async function load({ page }) {
-		let heading = 'Contact me';
-
-		// switch (page.query.get('type')) {
-		// 	case 'project':
-		// 		heading = 'Have a project in mind?';
-		// 		break;
-		// 	case 'consulting':
-		// 		heading = 'Need consulting work?';
-		// 		break;
-		// 	case 'tea':
-		// 		heading = 'Wanna do a tea session together? 🍵';
-		// 		break;
-		// 	default:
-		// 		heading = 'Contact me';
-		// 		break;
-		// }
-		return {
-			props: {
-				heading
-			}
-		};
-	}
-</script>
-
 <script lang="ts">
-	export let heading = 'Contact me';
+	import { page } from '$app/stores';
+
+	// Dynamic heading for the page based on query params
+	$: queryParam = $page.query.get('type');
+	$: heading =
+		queryParam === 'project'
+			? 'Have a project in mind?'
+			: queryParam === 'consulting'
+			? 'Need consulting work?'
+			: queryParam === 'tea'
+			? 'Wanna drink tea together? 🍵'
+			: 'Contact me';
+
+	// Form submission messages
 	let success: string,
 		error: string = '';
 
+	/**
+	 * Extract the data from the form submission
+	 * @param event The form submission event
+	 */
 	function getFormData(event: Event) {
 		const form = event.target as HTMLFormElement;
 		const data = new FormData(form);
 		return Object.fromEntries(data.entries());
 	}
 
+	/**
+	 * Encode text data as valid URI components for the form submission request
+	 * @param data The data to encode
+	 */
 	function encode(data: Record<string, string>) {
 		return Object.keys(data)
 			.map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
 			.join('&');
 	}
 
+	/**
+	 * Handle the form submission
+	 * @param event The form submission event
+	 */
 	async function handleSubmit(event: Event) {
 		const res = await fetch('/', {
 			method: 'POST',
