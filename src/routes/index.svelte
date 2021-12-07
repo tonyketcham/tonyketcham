@@ -43,18 +43,18 @@
 			<a href="/art" sveltekit:prefetch>art</a> I've made, if you'd like.
 		</p>
 		<p>
+			If ya like my works, consider sponsoring me on <a
+				target="_blank"
+				href="https://github.com/sponsors/tonyketcham">GitHub Sponsor</a
+			> to keep them sustainable.
+		</p>
+		<p>
 			Over quarantine, I took a deep dive into the world of specialty teas, predominately <a
 				href="https://en.wikipedia.org/wiki/Pu%27er_tea"
 				target="_blank">puerh tea</a
 			>, and haven't yet swam back up to the surface. Wish me luck! If you wanna talk tea,
 			<a href="/contact?type=tea" sveltekit:prefetch>hit me up</a>; I'd love to have a tea session
 			together.
-		</p>
-		<p>
-			If ya like my works, consider sponsoring me on <a
-				target="_blank"
-				href="https://github.com/sponsors/tonyketcham">GitHub Sponsor</a
-			> to keep them sustainable.
 		</p>
 	</section>
 </article>
