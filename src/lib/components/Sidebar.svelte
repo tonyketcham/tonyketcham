@@ -12,7 +12,11 @@
 		<div class="relative -mt-6 border-3 border-black">
 			<img width="210" height="210" src="mamiya-small.jpeg" alt="Pic of me" class="object-cover" />
 		</div>
-		<h1 class="text-3xl mb-6">Tony Ketcham</h1>
+		<h1 class="text-2xl">Tony Ketcham</h1>
+		<span
+			class="inline-block mb-6 text-sm text-indigo-500 dark:text-funkyyellow bg-indigo-100 dark:bg-indigo-700 p-0.5 transition-colors"
+			>he/they</span
+		>
 
 		<nav class="flex flex-col place-items-end relative -right-3 -mx-2">
 			<BrutalistButton href="/" accent="funkycyan" tag="a">about</BrutalistButton>
