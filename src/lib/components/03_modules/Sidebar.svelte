@@ -14,7 +14,7 @@
 			<img width="210" height="210" src="mamiya-small.jpeg" alt="Pic of me" class="object-cover" />
 		</div>
 		<h1 class="text-2xl">Tony Ketcham</h1>
-		<div class="inline-block mb-6">
+		<div class="inline-block mb-6 mt-1">
 			<Tag>he/they</Tag>
 		</div>
 

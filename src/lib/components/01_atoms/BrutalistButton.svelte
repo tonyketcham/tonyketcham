@@ -7,7 +7,8 @@
 <div class="relative max-w-max mb-3">
 	{#if tag === 'button'}
 		<button
-			class="button dark:bg-indigo-600 dark:hover:text-black transition-all duration-150 hover:translate-y-0.5 hover:translate-x-0.5 transform"
+			class="button dark:bg-indigo-600 dark:hover:text-black dark:hover:bg-indigo-100
+			hover:bg-gray-100 transition-all duration-150 hover:translate-y-0.5 hover:translate-x-0.5 transform"
 			class:hover:bg-funkycyan={accent === 'funkycyan'}
 			class:hover:bg-funkyyellow={accent === 'funkyyellow'}
 			class:hover:bg-funkyviolet={accent === 'funkyviolet'}
@@ -17,7 +18,9 @@
 		</button>
 	{:else}
 		<a
-			class="button dark:bg-indigo-600 dark:hover:text-black transition-all duration-150 hover:translate-y-0.5 hover:translate-x-0.5 transform"
+			class="button dark:bg-indigo-600 dark:hover:text-black dark:hover:bg-indigo-100 
+			hover:bg-gray-100
+			transition-all duration-150 hover:translate-y-0.5 hover:translate-x-0.5 transform"
 			class:hover:bg-funkycyan={accent === 'funkycyan'}
 			class:hover:bg-funkyyellow={accent === 'funkyyellow'}
 			class:hover:bg-funkyviolet={accent === 'funkyviolet'}
