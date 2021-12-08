@@ -3,19 +3,24 @@
 	import TabBookmarks from '$lib/components/02_molecules/TabBookmarks.svelte';
 </script>
 
-<div class="w-full font-mono">
+<div class="relative w-full font-mono">
+	<a
+		href="#main-content"
+		class="text-white bg-indigo-800 sr-only focus:p-1 focus:mx-auto focus:absolute focus:inset-x-2 focus:top-2 focus:not-sr-only focus:max-w-max focus:outline-white hover:bg-indigo-700"
+		>Skip to content</a
+	>
 	<div
-		class="flex flex-row-reverse space-x-reverse space-x-16 mx-auto max-width m-auto h-screen p-16"
+		class="flex flex-row-reverse h-screen p-16 m-auto mx-auto space-x-16 space-x-reverse max-width"
 	>
 		<Sidebar />
-		<div class="relative w-full h-full flex">
+		<div class="relative flex w-full h-full">
 			<TabBookmarks />
 
 			<main
 				id="main-content"
-				class="relative w-full brutalist-layer bg-white dark:bg-indigo-800 dark:text-white"
+				class="relative w-full bg-white brutalist-layer dark:bg-indigo-800 dark:text-white"
 			>
-				<div class="overflow-auto w-full h-full">
+				<div class="w-full h-full overflow-auto">
 					<slot />
 				</div>
 			</main>
@@ -24,6 +29,9 @@
 </div>
 
 <style windi:preflights:global windi:safelist:global global>
+	*::selection {
+		@apply bg-indigo-500 bg-opacity-50;
+	}
 	.max-width {
 		max-width: 70rem;
 	}

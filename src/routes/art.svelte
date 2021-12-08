@@ -4,8 +4,8 @@
 </svelte:head>
 
 <article class="p-4">
-	<section class="space-y-5 text-lg">
-		<h1 class="text-6xl mb-2">Art + Design</h1>
+	<section class="space-y-5 text-lg tracking-tighter">
+		<h1 class="mb-2 text-6xl">Art + Design</h1>
 		<p>
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem ab nemo explicabo
 			delectus, eligendi quisquam eveniet adipisci? Commodi sapiente iusto facere doloremque
