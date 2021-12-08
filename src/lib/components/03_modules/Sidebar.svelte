@@ -11,7 +11,7 @@
 		style="height: max-content;"
 	>
 		<div class="relative -mt-6 border-3 border-black">
-			<img width="210" height="210" src="mamiya-small.jpeg" alt="Pic of me" class="object-cover" />
+			<img width="210" height="210" src="/mamiya-small.jpeg" alt="Pic of me" class="object-cover" />
 		</div>
 		<h1 class="text-2xl">Tony Ketcham</h1>
 		<div class="inline-block mb-6 mt-1">
@@ -20,8 +20,8 @@
 
 		<nav class="flex flex-col place-items-end relative -right-3 -mx-2">
 			<BrutalistButton href="/" accent="funkycyan" tag="a">about</BrutalistButton>
-			<BrutalistButton href="projects" accent="funkyyellow" tag="a">projects</BrutalistButton>
-			<BrutalistButton href="art" accent="funkyviolet" tag="a">visual art</BrutalistButton>
+			<BrutalistButton href="/projects" accent="funkyyellow" tag="a">projects</BrutalistButton>
+			<BrutalistButton href="/art" accent="funkyviolet" tag="a">visual art</BrutalistButton>
 		</nav>
 		<div class="flex justify-end mt-3">
 			<FunkyToggle />
