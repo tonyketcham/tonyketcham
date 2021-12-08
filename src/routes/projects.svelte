@@ -14,7 +14,7 @@
 		<div class="px-4">
 			<ProjectEntry
 				title="Flatbread 🍞"
-				tags={['Node', 'GraphQL', 'TypeScript', 'CLI', 'monorepo']}
+				tags={['flat-file', 'Node', 'GraphQL', 'TypeScript', 'CLI', 'monorepo']}
 				href="https://github.com/tonyketcham/flatbread"
 				source="https://github.com/tonyketcham/flatbread"
 				cta="Bake it"
