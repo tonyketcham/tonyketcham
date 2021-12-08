@@ -2,6 +2,7 @@
 	export let tag = 'button';
 	export let href = '#';
 	export let accent = 'white';
+	export let newTab = false;
 </script>
 
 <div class="relative max-w-max mb-3">
@@ -26,6 +27,7 @@
 			class:hover:bg-funkyviolet={accent === 'funkyviolet'}
 			{href}
 			sveltekit:prefetch
+			target={newTab ? '_blank' : '_self'}
 		>
 			<slot />
 		</a>

@@ -12,7 +12,7 @@
 <article class="border-t-2 border-black py-10 relative">
 	<h2 class="text-4xl mb-2 inline-block">
 		{#if source}
-			<a class="hover:text-gray-500" href={source}>{title}</a>
+			<a class="hover:text-gray-500" href={source} target="_blank">{title}</a>
 		{:else}
 			{title}
 		{/if}
@@ -26,7 +26,7 @@
 		<slot />
 	</div>
 	{#if href}
-		<BrutalistButton tag="a" {href}>{cta}</BrutalistButton>
+		<BrutalistButton tag="a" {href} newTab>{cta}</BrutalistButton>
 	{/if}
 </article>
 
