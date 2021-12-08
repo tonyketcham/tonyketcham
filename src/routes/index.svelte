@@ -43,9 +43,9 @@
 			department manager.
 		</p>
 		<p>
-			Over quarantine, I took a deep dive into the world of specialty teas, predominately <a
+			Over quarantine, I took a deep dive into the wild world of specialty tea, predominately <a
 				href="https://en.wikipedia.org/wiki/Pu%27er_tea"
-				target="_blank">puerh tea</a
+				target="_blank">pu-erh (shēng chá)</a
 			>, and haven't yet swam back up to the surface. Wish me luck! If you wanna talk tea,
 			<a href="/contact?type=tea" sveltekit:prefetch>hit me up</a>; I'd love to have a tea session
 			together.

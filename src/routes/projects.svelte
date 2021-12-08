@@ -88,7 +88,7 @@
 				tags={['Java', 'OpenCV', 'computer vision', 'CLI']}
 				href="https://github.com/tonyketcham/Depth-Mapper"
 				source="https://github.com/tonyketcham/Depth-Mapper"
-				cta="View it"
+				cta="Map it"
 			>
 				<p>
 					Generates a depth map from a focal stack of images, using ideas proposed in <a
