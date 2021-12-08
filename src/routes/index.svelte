@@ -8,45 +8,39 @@
 </svelte:head>
 
 <article class="p-4">
-	<div class=" md:float-right -m-4 md:ml-0 md:mb-0 md:-mr-4 md:-mt-4 md:w-1/2 h-70 relative">
+	<div class="relative -m-4 md:float-right md:ml-0 md:mb-0 md:-mr-4 md:-mt-4 md:w-1/2 h-70">
 		<TreeScene />
 	</div>
-	<section class="space-y-5 text-lg">
-		<h1 class="text-6xl mb-2">I'm Tony</h1>
+	<section class="space-y-5 text-lg tracking-tighter">
+		<h1 class="mb-2 text-6xl">I'm Tony</h1>
 		<blockquote>A digital and analogue forager + maker 👩‍🌾</blockquote>
 		<p>
-			I'm into developing tools that help others, building neat lookin websites, and experimenting
-			with a variety of creative mediums such as generative art, photography, graphic design, audio
-			engineering, and 3D printing.
+			I create neat tools like <a href="https://github.com/tonyketcham/flatbread" target="_blank"
+				>Flatbread</a
+			>
+			and <a href="https://liaison.greatnews.life/" target="_blank">Liaison</a> to help others,
+			build cool + accessible websites like
+			<a href="https://resetpresents.com" target="_blank">Reset</a>, and experiment with a variety
+			of creative mediums.
 		</p>
 		<p>
-			In 2016, I started my own creative agency called <a
-				href="https://karmalies.studio"
-				target="_blank">Karma Lies</a
+			My interests in the web realm span UI/UX, accessibility, serverless applications, devtools,
+			and whatever niche I'm taking a nose dive in this week. Explore things I've <a
+				href="/projects"
+				sveltekit:prefetch>developed</a
 			>
-			where I do the majority of my photo and graphic design work, with some web design + development
-			sprinkled in for good measure. I work full-time at
-			<a href="https://valpo.life" target="_blank">GreatNews.Life</a> as the lead developer and tech
-			department manager.
-		</p>
-		<p>
-			My primary focus is working on full-stack web projects, where I create tools like <a
-				href="https://github.com/tonyketcham/flatbread"
-				target="_blank">Flatbread</a
-			>
-			and <a href="https://liaison.greatnews.life/">Liaison</a>, as well as websites like
-			<a href="https://resetpresents.com" target="_blank">Reset</a>
-			and <a href="https://puerh.wtf" target="_blank">Puerh.wtf</a>. My interests in this space span
-			UI/UX, accessibility, serverless applications, devtools, and whatever rabbit hole I'm down
-			this week. I'm a big fan of TypeScript and functional programming paradigms. Explore things
-			I've <a href="/projects" sveltekit:prefetch>developed</a> or pretty pieces of
+			or pretty pieces of
 			<a href="/art" sveltekit:prefetch>art</a> I've made, if you'd like.
 		</p>
 		<p>
-			If ya like my works, consider sponsoring me on <a
-				target="_blank"
-				href="https://github.com/sponsors/tonyketcham">GitHub Sponsor</a
-			> to keep them sustainable.
+			In 2016, I founded my own creative agency called <a
+				href="https://karmalies.studio"
+				target="_blank">Karma Lies</a
+			>
+			offering unorthodox brand development via photography, graphic design, UI/UX, and web development.
+			These days, I camp out at
+			<a href="https://valpo.life" target="_blank">GreatNews.Life</a> as the lead developer and tech
+			department manager.
 		</p>
 		<p>
 			Over quarantine, I took a deep dive into the world of specialty teas, predominately <a
