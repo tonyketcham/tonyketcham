@@ -1,6 +1,20 @@
-<script>
+<script lang="ts">
 	import Sidebar from '$lib/components/03_modules/Sidebar.svelte';
 	import TabBookmarks from '$lib/components/02_molecules/TabBookmarks.svelte';
+	import { beforeUpdate, afterUpdate } from 'svelte';
+
+	let content: HTMLElement;
+	let autoscroll: boolean;
+
+	beforeUpdate(() => {
+		// Check if the content area has been scrolled
+		autoscroll = content && content.scrollTop > 0;
+	});
+
+	afterUpdate(() => {
+		// If the content area has been scrolled, scroll it back to the top on update
+		if (autoscroll) content.scrollTo(0, 0);
+	});
 </script>
 
 <div class="relative w-full font-mono">
@@ -20,7 +34,7 @@
 				id="main-content"
 				class="relative w-full bg-white brutalist-layer dark:bg-indigo-800 dark:text-white"
 			>
-				<div class="w-full h-full overflow-auto">
+				<div class="w-full h-full overflow-auto" bind:this={content}>
 					<slot />
 				</div>
 			</main>
