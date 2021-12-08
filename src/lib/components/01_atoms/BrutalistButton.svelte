@@ -22,6 +22,7 @@
 			class:hover:bg-funkyyellow={accent === 'funkyyellow'}
 			class:hover:bg-funkyviolet={accent === 'funkyviolet'}
 			{href}
+			sveltekit:prefetch
 		>
 			<slot />
 		</a>

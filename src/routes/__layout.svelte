@@ -1,6 +1,6 @@
 <script>
-	import Sidebar from '$lib/components/Sidebar.svelte';
-	import TabBookmarks from '$lib/components/TabBookmarks.svelte';
+	import Sidebar from '$lib/components/03_modules/Sidebar.svelte';
+	import TabBookmarks from '$lib/components/02_molecules/TabBookmarks.svelte';
 </script>
 
 <div class="w-full font-mono">

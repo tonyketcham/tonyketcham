@@ -1,7 +1,8 @@
 <script>
-	import BrutalistButton from './BrutalistButton.svelte';
-	import FunkyToggle from '$lib/components/FunkyToggle.svelte';
-	import SocialLinks from '$lib/components/SocialLinks.svelte';
+	import BrutalistButton from '$lib/components/01_atoms/BrutalistButton.svelte';
+	import FunkyToggle from '$lib/components/02_molecules/FunkyToggle.svelte';
+	import SocialLinks from '$lib/components/02_molecules/SocialLinks.svelte';
+	import Tag from '$lib/components/01_atoms/Tag.svelte';
 </script>
 
 <aside class="w-80 relative">
@@ -13,10 +14,9 @@
 			<img width="210" height="210" src="mamiya-small.jpeg" alt="Pic of me" class="object-cover" />
 		</div>
 		<h1 class="text-2xl">Tony Ketcham</h1>
-		<span
-			class="inline-block mb-6 text-sm text-indigo-500 dark:text-funkyyellow bg-indigo-100 dark:bg-indigo-700 p-0.5 transition-colors"
-			>he/they</span
-		>
+		<div class="inline-block mb-6">
+			<Tag>he/they</Tag>
+		</div>
 
 		<nav class="flex flex-col place-items-end relative -right-3 -mx-2">
 			<BrutalistButton href="/" accent="funkycyan" tag="a">about</BrutalistButton>
