@@ -42,12 +42,26 @@
 			<a href="https://valpo.life" target="_blank">GreatNews.Life</a> as the lead developer and tech
 			department manager.
 		</p>
+		<div class="float-left w-full md:w-1/2 md:px-5 md:pl-0 py-5 md:py-0">
+			<img
+				src="/Green Hype.JPG"
+				alt="Green Hype raw puer from white2tea"
+				width="1440"
+				height="1800"
+				class="w-full"
+				loading="lazy"
+			/>
+		</div>
+		<h2 class="text-4xl mb-2 inline-block">Tea time 🌱</h2>
 		<p>
 			Over quarantine, I took a deep dive into the wild world of specialty tea, predominately <a
 				href="https://en.wikipedia.org/wiki/Pu%27er_tea"
 				target="_blank">pu-erh (shēng chá)</a
-			>, and haven't yet swam back up to the surface. Wish me luck! If you wanna talk tea,
-			<a href="/contact?type=tea" sveltekit:prefetch>hit me up</a>; I'd love to have a tea session
+			>, and haven't yet swam back up to the surface. Wish me luck!
+		</p>
+		<p>
+			If you wanna talk tea,
+			<a href="/contact?type=tea" sveltekit:prefetch>hit me up</a>; I'd love to have a session
 			together.
 		</p>
 	</section>
