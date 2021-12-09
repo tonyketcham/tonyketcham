@@ -32,8 +32,17 @@
 				title="Liaison 📬"
 				tags={['Vue', 'email', 'JavaScript', 'web app', 'serverless']}
 				href="https://liaison.greatnews.life/"
-				cta="Join it"
+				cta="Build it"
 			>
+				<a href="https://liaison.greatnews.life/" target="_blank">
+					<img
+						src="/projects/Liaison Screenshot.jpg"
+						alt="Liaison screenshot"
+						class="rounded object-cover w-full"
+						width="1448"
+						height="771"
+					/>
+				</a>
 				<p>
 					A modular, data-driven newsletter generator built on the JAMstack with Vue 2. Quickly
 					build customizeable, responsive emails by joining together limitless external data
@@ -62,20 +71,24 @@
 				source="https://github.com/Karma-Lies/reset"
 				cta="Reset it"
 			>
-				<img
-					src="/projects/Reset Presents - Events Page-min.png"
-					alt="Reset Presents event page"
-					class="rounded"
-					width="608"
-					height="429"
-				/>
-				<img
-					src="/projects/Reset Presents - Contact Page.png"
-					alt="Reset Presents event page"
-					class="rounded"
-					width="608"
-					height="299"
-				/>
+				<a href="https://resetpresents.com/events" target="_blank" class="block">
+					<img
+						src="/projects/Reset Presents - Events Page-min.png"
+						alt="Reset Presents event page"
+						class="rounded"
+						width="608"
+						height="429"
+					/>
+				</a>
+				<a href="https://resetpresents.com/contact" target="_blank" class="block">
+					<img
+						src="/projects/Reset Presents - Contact Page.png"
+						alt="Reset Presents event page"
+						class="rounded"
+						width="608"
+						height="299"
+					/>
+				</a>
 				<p>
 					The online anchor of Chicago's premiere inclusive event organization for underground
 					talent, Reset Presents. This project experiments with how a minimal production company

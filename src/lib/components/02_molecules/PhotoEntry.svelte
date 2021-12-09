@@ -17,7 +17,7 @@
 		alt={img.alt}
 		width={img.width}
 		height={img.height}
-		class="mx-auto"
+		class="mx-auto w-full rounded"
 		loading="lazy"
 	/>
 </ArtworkEntry>

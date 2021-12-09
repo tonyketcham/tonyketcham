@@ -43,7 +43,7 @@
 		</section>
 		<section class="topic">
 			<h2>Photography 🤳</h2>
-			<div class="mb-1.5 space-y-2">
+			<div class="mb-1.5 space-y-3">
 				<p>
 					Interested in hyper-realism and retro-futurism, I apply my study of light and color to
 					funky people and liminal spaces.
