@@ -82,16 +82,25 @@
 				Like photography, but in motion this time. Usually music videos and editorial edits on event
 				recaps.
 			</p>
-			<div class="grid grid-cols-[auto]">
+			<div class="flex flex-col space-y-4 my-4">
 				<iframe
-					width="560"
-					height="315"
+					title="Vimeo video player"
+					src="https://player.vimeo.com/video/556675018?h=c459fd3693"
+					width="640"
+					height="360"
+					frameborder="0"
+					allowfullscreen
+					class="w-full"
+				/>
+				<iframe
+					width="640"
+					height="360"
 					src="https://www.youtube-nocookie.com/embed/Nr9o8uqrSeI"
 					title="YouTube video player"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen
-					class="mx-auto my-4"
+					class="mx-auto w-full"
 				/>
 			</div>
 		</section>
