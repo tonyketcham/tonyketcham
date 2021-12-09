@@ -1,20 +1,20 @@
 <script lang="ts">
+	import { theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
+	import { browser } from '$app/env';
 
-	let theme = 'light';
-	$: oppositeTheme = theme === 'light' ? 'dark' : 'light';
+	$: oppositeTheme = $theme === 'light' ? 'dark' : 'light';
 
-	onMount(() => {
-		// Use the user's system theme
-		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			applyThemeClass('dark');
-		}
-	});
+	if (browser) {
+		applyThemeClass($theme);
+	}
 
 	function applyThemeClass(newTheme: string) {
-		document.body.classList.remove(theme);
-		theme = newTheme;
-		document.body.classList.add(theme);
+		if ($theme) document.body.classList.remove($theme);
+
+		theme.update(() => newTheme);
+
+		document.body.classList.add($theme);
 	}
 
 	function toggleTheme() {
@@ -30,7 +30,7 @@
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		class="w-6 h-6 overflow-visible transform transition-all ease-in-out"
-		class:-rotate-180={theme === 'dark'}
+		class:-rotate-180={$theme === 'dark'}
 		viewBox="0 0 30 30"
 		><g
 			id="dark"
@@ -38,8 +38,8 @@
 			fill="#ffe600"
 			stroke="#000"
 			stroke-width="3"
-			class:active={theme === 'dark'}
-			class:next={theme === 'light'}
+			class:active={$theme === 'dark'}
+			class:next={$theme === 'light'}
 		>
 			<circle cx="11" cy="11" r="11" stroke="none" /><circle
 				cx="11"
@@ -52,8 +52,8 @@
 			fill="#fff"
 			stroke="#000"
 			stroke-width="3"
-			class:active={theme === 'light'}
-			class:next={theme === 'dark'}
+			class:active={$theme === 'light'}
+			class:next={$theme === 'dark'}
 		>
 			<circle cx="11" cy="11" r="11" stroke="none" /><circle
 				cx="11"
@@ -62,7 +62,7 @@
 				fill="none"
 			/></g
 		>
-		<use xlink:href="#{theme}" />
+		<use xlink:href="#{$theme}" />
 	</svg>
 </button>
 
