@@ -21,7 +21,7 @@
 		<nav class="flex flex-col place-items-end relative -right-3 -mx-2">
 			<BrutalistButton href="/" accent="funkycyan" tag="a">about</BrutalistButton>
 			<BrutalistButton href="/projects" accent="funkyyellow" tag="a">projects</BrutalistButton>
-			<BrutalistButton href="/art" accent="funkyviolet" tag="a">visual art</BrutalistButton>
+			<BrutalistButton href="/art" accent="funkyviolet" tag="a">art/design</BrutalistButton>
 		</nav>
 		<div class="flex justify-end mt-3">
 			<FunkyToggle />
