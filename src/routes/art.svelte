@@ -115,6 +115,6 @@
 		@apply text-indigo-400 font-semibold tracking-wide;
 	}
 	.topic {
-		@apply px-4 py-6 border-t-2 border-black;
+		@apply lg:px-4 py-6 border-t-2 border-black;
 	}
 </style>

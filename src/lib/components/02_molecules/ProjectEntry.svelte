@@ -17,12 +17,12 @@
 			{title}
 		{/if}
 	</h2>
-	<div class="py-1">
+	<div class="py-1 flex flex-row flex-wrap">
 		{#each tags as tag, i (tag)}
 			<Tag>{tag}</Tag>
 		{/each}
 	</div>
-	<div class="p-3 py-6 dark:text-indigo-50 text-gray-800 space-y-3 text-base">
+	<div class="lg:p-3 py-6 dark:text-indigo-50 text-gray-800 space-y-3 text-base">
 		<slot />
 	</div>
 	{#if href}

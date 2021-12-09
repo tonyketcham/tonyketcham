@@ -11,7 +11,7 @@
 	<section class="space-y-5 text-lg tracking-tighter">
 		<h1 class="mb-2 text-6xl">Projects</h1>
 		<p>A select compilation of my software, spanning devtools, web apps, and computer vision.</p>
-		<div class="px-4">
+		<div class="lg:px-4">
 			<ProjectEntry
 				title="Flatbread 🍞"
 				tags={['flat-file', 'Node', 'GraphQL', 'TypeScript', 'CLI', 'monorepo']}

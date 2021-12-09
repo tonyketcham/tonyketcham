@@ -5,7 +5,7 @@
 	import Tag from '$lib/components/01_atoms/Tag.svelte';
 </script>
 
-<aside class="w-80 relative">
+<aside class="max-w-80 relative">
 	<section
 		class="p-1.5 brutalist-layer bg-white dark:bg-indigo-800 dark:text-white relative"
 		style="height: max-content;"

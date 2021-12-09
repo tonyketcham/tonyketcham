@@ -17,6 +17,11 @@
 	});
 </script>
 
+<div class="flex w-full min-h-screen !md:hidden">
+	<div class="m-auto">
+		<Sidebar />
+	</div>
+</div>
 <div class="relative w-full font-mono">
 	<a
 		href="#main-content"
@@ -24,9 +29,11 @@
 		>Skip to content</a
 	>
 	<div
-		class="flex flex-row-reverse h-screen p-16 m-auto mx-auto space-x-16 space-x-reverse max-width"
+		class="flex md:flex-row-reverse h-screen p-8 md:p-16 m-auto mx-auto md:space-x-16 md:space-x-reverse max-width"
 	>
-		<Sidebar />
+		<div class="md:block hidden">
+			<Sidebar />
+		</div>
 		<div class="relative flex w-full h-full">
 			<TabBookmarks />
 
