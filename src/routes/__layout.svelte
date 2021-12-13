@@ -17,12 +17,12 @@
 	});
 </script>
 
-<div class="flex w-full min-h-screen !md:hidden text-shade">
+<div class="flex w-full min-h-screen !md:hidden text-shadow-light dark:text-shadow-dark">
 	<div class="m-auto">
 		<Sidebar />
 	</div>
 </div>
-<div class="relative w-full font-mono text-shade">
+<div class="relative w-full font-mono text-shadow-light dark:text-shadow-dark">
 	<a
 		href="#main-content"
 		class="text-white bg-indigo-800 sr-only focus:p-1 focus:mx-auto focus:absolute focus:inset-x-2 focus:top-2 focus:not-sr-only focus:max-w-max focus:outline-white hover:bg-indigo-700"
@@ -63,8 +63,5 @@
 	.brutalist-layer:after {
 		@apply content- absolute top-1.5 left-1.5 w-full h-full -z-2;
 		@apply bg-indigo-500;
-	}
-	.text-shade {
-		text-shadow: 1px 1px 0 rgb(0 0 0 / 25%);
 	}
 </style>
