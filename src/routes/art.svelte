@@ -84,7 +84,7 @@
 			</p>
 			<div class="flex flex-col space-y-4 my-4">
 				<iframe
-					title="Vimeo video player"
+					title="Reset Presents: William Crooks (Recap by Karma Lies)"
 					src="https://player.vimeo.com/video/556675018?h=c459fd3693"
 					width="640"
 					height="360"
@@ -93,14 +93,13 @@
 					class="w-full"
 				/>
 				<iframe
+					title="Reset Presents: Search Party w/ umru, laura les, + more (Recap by Karma Lies)"
+					src="https://player.vimeo.com/video/655779625?h=07bd603c05&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
 					width="640"
 					height="360"
-					src="https://www.youtube-nocookie.com/embed/Nr9o8uqrSeI"
-					title="YouTube video player"
 					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen
-					class="mx-auto w-full"
+					class="w-full"
 				/>
 			</div>
 		</section>
