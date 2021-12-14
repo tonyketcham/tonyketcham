@@ -33,7 +33,7 @@
 			<a href="/art" sveltekit:prefetch>art</a> I've made, if you'd like.
 		</p>
 		<p>
-			In 2016, I founded my own creative agency called <a
+			In 2015, I founded my own creative agency called <a
 				href="https://karmalies.studio"
 				target="_blank">Karma Lies</a
 			>
