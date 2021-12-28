@@ -20,8 +20,8 @@
 				cta="Bake it"
 			>
 				<p>
-					Eat your relational markdown data and query it, too, with GraphQL inside damn near any
-					framework (statement awaiting peer-review).
+					Eat your relationup data and query it, too, with GraphQL inside damn near any framework
+					(statement awaiting peer-review).
 				</p>
 				<p>
 					Born out of a desire to Gridsome (or Gatsby) anything, this project harnesses a plugin
@@ -57,7 +57,7 @@
 					<li>Plan newsletters across your entire network of assets from one place, seamlessly.</li>
 					<li>Modular and therefore extensibile by design with custom block types.</li>
 					<li>Built on the JAMstack, so self-hosting the project can be free.</li>
-					<li>Generate email-compliant markdown with real-time, client-side MJML transpiling.</li>
+					<li>Generate email-compliant markup with real-time, client-side MJML transpiling.</li>
 					<li>
 						Create transferrable <code>.lzon</code> project files which can be consumed or modified by
 						other users.
