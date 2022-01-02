@@ -22,7 +22,7 @@
 			<Tag>{tag}</Tag>
 		{/each}
 	</div>
-	<div class="lg:p-3 py-6 dark:text-indigo-50 text-gray-800 space-y-3 text-base">
+	<div class="lg:p-3 py-6 mb-3 dark:text-indigo-50 text-gray-800 space-y-3 text-base">
 		<slot />
 	</div>
 	{#if href}
