@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 
 	// Dynamic heading for the page based on query params
-	$: queryParam = $page.query.get('type');
+	$: queryParam = $page.url.searchParams.get('type');
 	$: heading =
 		queryParam === 'project'
 			? 'Have a project in mind?'

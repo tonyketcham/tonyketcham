@@ -26,7 +26,7 @@
 			<a
 				href={bookmark.url}
 				class="inline-block w-8 h-4 transform translate-x-2 transition-transform hover:translate-x-0 {bookmark.bg}"
-				class:translate-x-0={bookmark.url === $page.path}
+				class:translate-x-0={bookmark.url === $page.url.pathname}
 			>
 				<span class="sr-only">{bookmark.title}</span>
 			</a>
