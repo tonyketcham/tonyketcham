@@ -4,14 +4,11 @@
 
 <div>
   <ul>
-    <li>🔭 Currently working on <a href="https://github.com/tonyketcham/puerh.wtf">Puerh.wtf</a> and a hodgepodge of web projects
-      <ul>
-        <li>Recently started <a href="https://github.com/tonyketcham/flatbread">Flatbread</a> so I can port my tea log's flat-file database to SvelteKit</li>
-      </ul>
+    <li>🔭 Currently working on Modyfi, <a href="https://github.com/tonyketcham/puerh.wtf">Puerh.wtf</a> and a hodgepodge of web projects
     </li>
-    <li>🌱 Learnin Typescript, Category Theory, GLSL, generative design, and how to make more accessible web apps!</li>
+    <li>🌱 Learnin Rust, WGPU, Nannou, and whatever sidequest I'm on this week</li>
     <li>🤔 Looking to collab on vector-based generative art tools & weird shit</li>
-    <li>💬 Talk to me about tea, UI/UX, rogue gardening, graphic design, photography, ideas for VR games, building keyboards, 3D printing, or whatever my hyperfixation of the month is</li>
+    <li>💬 Talk to me about craft tea, UI/UX, rogue gardening, graphic design, photography, 3D printing, and cat</li>
     <li>😄 Pronouns: he/they</li>
   </ul>
 </div>
