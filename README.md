@@ -1,7 +1,5 @@
 ### Digital and analogue forager + maker 👩‍🌾
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U639TZ3)
-
 <div>
   <ul>
     <li>🔭 Currently working on Modyfi, <a href="https://github.com/tonyketcham/puerh.wtf">Puerh.wtf</a> and a hodgepodge of web projects
