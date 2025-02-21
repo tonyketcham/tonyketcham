@@ -4,8 +4,7 @@
   <ul>
     <li>🔭 Building Modyfi, creating tools that designers can have fun playing with
     </li>
-    <li>🌱 Learnin GraphQL's underbelly, how to maintain and market open source projects, and whatever sidequest I'm on this week</li>
-    <li> Likely thinking about craft tea, design engineering, styling, generative art, boldering, or any and all attributes of cats</li>
+    <li>〰️ Likely thinking about craft tea, design engineering, styling, generative art, boldering, or any and all attributes of cats</li>
     <li>😄 Pronouns: he/they</li>
   </ul>
 </div>
